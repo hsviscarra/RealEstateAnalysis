@@ -1,0 +1,1 @@
+{"serial_number": "str", "list_year": "Int64", "date_recorded": "datetime64[ns]", "town": "str", "address": "str", "assessed_value": "float64", "sale_amount": "float64", "sales_ratio": "float64", "property_type": "str", "residential_type": "str"}
