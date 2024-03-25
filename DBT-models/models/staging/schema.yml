@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: staging
+    database: retaildataanalysis
+    schema: connecticut_rs
+
+    tables:
+      - name: real_state_sales
