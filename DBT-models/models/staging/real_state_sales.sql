@@ -36,3 +36,4 @@ renamed as (
 )
 
 select * from renamed
+where rn=1
