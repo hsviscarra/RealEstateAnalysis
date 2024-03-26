@@ -29,7 +29,8 @@ renamed as (
         sales_ratio,
         {{ get_sales_categorization('sales_ratio') }} as appraisal_value_cat, 
         property_type,
-        residential_type
+        residential_type,
+        rn
 
     from source
 
