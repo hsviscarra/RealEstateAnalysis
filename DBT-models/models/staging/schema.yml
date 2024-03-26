@@ -7,3 +7,18 @@ sources:
 
     tables:
       - name: real_state_sales
+
+models:
+  - name: real_state_sales
+    description: ""
+    columns:
+      - name: serial_number
+        description: ""
+        tests:
+          - unique:
+              severity: warn
+          - not_null:
+              severity: warn
+        
+
+

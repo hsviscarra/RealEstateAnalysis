@@ -30,10 +30,9 @@ renamed as (
         {{ get_sales_categorization('sales_ratio') }} as appraisal_value_cat, 
         property_type,
         residential_type
-
     from source
 
 )
 
 select * from renamed
-where rn=1
+
