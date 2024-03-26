@@ -1,1 +1,0 @@
-{"Serial Number": "str", "List Year": "Int64", "Date Recorded": "datetime64[ns]", "Town": "str", "Address": "str", "Assessed Value": "float64", "Sale Amount": "float64", "Sales Ratio": "float64", "Property Type": "str", "Residential Type": "str"}
