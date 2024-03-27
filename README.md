@@ -40,6 +40,7 @@ The data was extracted using Mage. The extraction was performed using the url ad
 <br>
 <br>
 
+[Google Report] (https://lookerstudio.google.com/s/hqg23DQPT64)
 
 ## 4. Techonologies used
 - Cloud: Google Cloud (GCP)
