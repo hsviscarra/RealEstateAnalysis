@@ -24,7 +24,7 @@ As an illustrative example, this project uses the Connecticut property sales dat
 
 ## 3. Data architecture 
 
-<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Data%20Architecture.png"
+<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Data%20Architecture.png">
 
 The data was extracted using Mage. The extraction was performed using the url address to the data which is permanently updated. The pipeline consisted of the following steps:
 1. Extract data from web page repository
@@ -36,7 +36,7 @@ The data was extracted using Mage. The extraction was performed using the url ad
 8. Using Google Cloud to build a small dashboard
 <br>
 <div>
-<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Dashboard%20example.png"
+<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Dashboard%20example.png">
 </div>
 <br>
 <br>
