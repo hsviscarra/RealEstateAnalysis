@@ -1,5 +1,5 @@
 <div>
-<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/retail_image.jpeg">
+  <img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/retail_image.jpeg" style="width: 100%; height: 500px;">
 </div>
 
 ## REAL STATE DATA ANALYSIS - CONNECTICUT STATE
@@ -34,6 +34,12 @@ The data was extracted using Mage. The extraction was performed using the url ad
 5. Run DBT in the cloud to build some models using SQL based on a samll star schema model with fact, dimension tables and aggregate tables.
 6. Sink the data in BigQuery wharehouse
 8. Using Google Cloud to build a small dashboard
+<br>
+<div>
+<img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Dashboard%20example.png"
+</div>
+<br>
+<br>
 
 
 ## 4. Techonologies used
