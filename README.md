@@ -7,8 +7,6 @@
 Welcome to Retail Data Analysis Repository 
 
 
-
-
 ## 1. Objective
 
 The objective is to analyze the real estate price evolution of the propoerties sold in Connecticut from 2001 to 2021. The analysis will be perfomed by town and property type.
@@ -21,6 +19,7 @@ For investors to focus their effort on markets that are experiencing an increase
 For home-owners which great part of their wealth is invested in their own homes, to buy in areas with value appreciation.
 
 As an illustrative example, this project uses the Connecticut property sales dataset:
+
 [Data source](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
 
@@ -49,17 +48,57 @@ The data was extracted using Mage. The extraction was performed using the url ad
 - Batch processing: DBT
 - Dashboard: Google Data Cloud
 
+
+
 ## 5. How to run the code.
-1. Clone the repository
-2. Open a google cloud free account to:
+
+### 5.1. Clone the repository
+This repo contains the files of the project. In case of Mage (used for data orchestration) the repor contains a Docker Compose template for getting started with a new Mage project. It requires Docker to be installed locally. If Docker is not installed, please follow the instructions [here](https://docs.docker.com/get-docker/). 
+
+You can start by cloning the repo:
+
+```bash
+git clone https://github.com/hsviscarra/RealEstateAnalysis.git [name_of_the_folder]
+``
+
+Navigate to the repo:
+
+```bash
+cd [name_of_the_folder]
+```
+
+### 5.2 Build the container using Docker compose build (This command to build image based on the Docker compose and Docker file provided)
+
+```bash
+docker compose build
+```
+
+Finally, start the Docker container:
+
+```bash
+docker compose up
+```
+
+Now, you can navigate to http://localhost:6789 in your browser to start building / modifying the pipelines
+
+### 5.3 Changes in io_config.yml -> GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/[name_of_json_payload].json"
+
+### 5.4 Open a google cloud free account to:
    - Create a storage / bucket to dump the data
-   - Create a service account json payload with owner permissions to connect mage with GCP
-3. Docker compose build (This command to build image based on the Docker compose and Docker file provided)
-4. Docker compose up (To run the services)
-5. Changes in io_config.yml -> GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/[name_of_json_payload].json"
-6. Save and run the pipeline.
-7. Create an accouunt in DBT cloud and linked to you repo
-8. Make the adjustements in the models
-9. DBT Build
-10. Open Goolge Data Cloud and connect it to your BigQuery account
-11. Perform changes in the dashboard
+   - Create a service account json payload with owner permissions to connect Mage to GCP
+
+### 5.5 Create an accouunt in DBT cloud and linked to you repo
+Make the adjustements in the models
+
+### 5.6 Open Goolge Data Cloud and connect it to your BigQuery account
+Perform changes in the dashboard
+
+## Assistance
+
+1. [Mage Docs](https://docs.mage.ai/introduction/overview): Mage functionality or concepts.
+2. [DBT Docs](https://docs.getdbt.com/docs/introduction): DBT documents 
+4. [Google Data Studio](https://lookerstudio.google.com/navigation/reporting): Google Data Studio documents
+
+
+
+
