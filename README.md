@@ -89,7 +89,7 @@ Now, you can navigate to http://localhost:6789 in your browser to start building
    - Create a storage / bucket to dump the data
    - Create a service account json payload with owner permissions to connect Mage to GCP
 
-### 5.5 Create an accouunt in DBT cloud and linked to you repo
+### 5.5 Create an account in DBT cloud and linked to you repo
 Make the adjustements in the models
 
 ### 5.6 Open Goolge Data Cloud and connect it to your BigQuery account
