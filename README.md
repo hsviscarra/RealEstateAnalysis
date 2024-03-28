@@ -25,8 +25,8 @@ To illustrate this principle, this project utilizes the Connecticut property sal
 
 ## 3. Data architecture 
 
-The dataset is collected by the Office of Policy and Management and consists of all real estate sales with a sales price of $2000 or greater.
-that occure between October 1 (year at time t) and Spetember 30 (year at time t+1) of each year.  For instance, sales from 2020 are from 10/01/2020 to
+The dataset is collected by the Office of Policy and Management and consists of all real estate sales with a sales price of $2000 or greater
+that occure between October 1 (year at time t) and September 30 (year at time t+1) of each year.  For instance, sales from 2020 are from 10/01/2020 to
 9/30/2021. For each sale record, the file includes: town, property address, date of sale, property type (residential, apartment, commercial, industrial or vacant land), sales price, and property assessment. 
 
 <img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Data%20Architecture.png">
