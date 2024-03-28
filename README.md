@@ -71,7 +71,7 @@ You can start by cloning the repo:
 
 ```bash
 git clone https://github.com/hsviscarra/RealEstateAnalysis.git [name_of_the_folder]
-``
+```
 
 Navigate to the repo:
 
