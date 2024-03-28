@@ -29,17 +29,17 @@ The dataset is collected by the Office of Policy and Management and consists of 
 that occure between October 1 (year at time t) and September 30 (year at time t+1) of each year.  For instance, sales from 2020 are from 10/01/2020 to
 9/30/2021. For each sale record, the file includes: town, property address, date of sale, property type (residential, apartment, commercial, industrial or vacant land), sales price, and property assessment. 
 
+The data architecture used in this project is summarized in the following diagram:
+
 <img src="https://raw.githubusercontent.com/hsviscarra/RealEstateAnalysis/main/Static_files/Data%20Architecture.png">
 
-### 3.1 Technologies used
+The technologies used in the project are:
 
 - Cloud: Google Cloud (GCP)
 - Workflow orchestration: Mage
 - Data Warehouse: BigQuery
 - Batch processing: DBT
 - Dashboard: Google Data Cloud
-
-The pipeline consisted of the following steps:
 
 The pipeline comprised the following steps:
 
