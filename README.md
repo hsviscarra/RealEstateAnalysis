@@ -58,7 +58,7 @@ The pipeline comprised the following steps:
 <br>
 <br>
 
-[Google Report] (https://lookerstudio.google.com/s/hqg23DQPT64)
+[Google Report] (https://lookerstudio.google.com/reporting/af51ed33-ffd0-4565-b384-252f1e42a376)
 
 
 
